@@ -13,6 +13,11 @@ let watchlistSchema = new Schema({
     current_price: {
         type: Number,
         required: true
+    },
+    user: {
+        type: Schema.Types.ObjectId,
+        ref: 'User', 
+        required: true
     }
 });
 

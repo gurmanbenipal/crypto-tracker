@@ -3,6 +3,10 @@
 <a href="/watchlist">Watchlist</a>
 <h1>Search</h1>
 
+<p>Welcome <%= user.name %></p>
+
+
+
 <form action="/search" method="GET">
     <input type="text" name="coinId" placeholder="Enter a Coin Id">
     <button type="submit">Go!</button>
@@ -22,5 +26,6 @@
         <button type="submit">Add to watchlist</button>
         </form>
 <% } %>
+
 
 <%- include('./partials/footer') %>

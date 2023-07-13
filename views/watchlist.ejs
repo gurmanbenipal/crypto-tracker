@@ -8,6 +8,11 @@
     <div>
       <h2><%= coin.name %></h2>
       <p>Current price: <%= coin.current_price %></p>
+      <form action="/watchlist/<%= coin._id %>?_method=DELETE" method="POST">
+        <button type="submit">Delete</button>
+      </form>
+      
+
     </div>
   <% }); %>
 <% } else { %>
