@@ -3,5 +3,15 @@
 <a href="/search">Home</a>
 <h1>Watchlist</h1>
 
+<% if (coins && coins.length) { %>
+  <% coins.forEach(coin => { %>
+    <div>
+      <h2><%= coin.name %></h2>
+      <p>Current price: <%= coin.current_price %></p>
+    </div>
+  <% }); %>
+<% } else { %>
+  <p>No coins on watchlist yet</p>
+<% } %>
 
 <%- include('./partials/footer') %>
