@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const userSchema = new Schema({
-  name: String
+  name: String,
+  isDarkMode: { type: Boolean, default: false }
 }, {
   timestamps: true
 });

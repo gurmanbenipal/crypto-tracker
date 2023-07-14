@@ -9,6 +9,7 @@ module.exports = {
 
 async function deleteWatchlist(req, res){
     try {
+        //this line will grab the document id and the user id from mongodb
       await Watchlist.findByIdAndDelete({_id: req.params.id, user: req.user._id});
       res.redirect('/watchlist');
     } catch(err) {
