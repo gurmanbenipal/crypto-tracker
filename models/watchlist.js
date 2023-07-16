@@ -1,26 +1,20 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-let watchlistSchema = new Schema({
-    id: {
-        type: String,
-        required: true
-    },
-    name: {
-        type: String,
-        required: true
-    },
-    current_price: {
-        type: Number,
-        required: true
-    },
+const watchlistSchema = new Schema({
     user: {
-        type: Schema.Types.ObjectId,
-        ref: 'User', 
-        required: true
-    }
-});
-
+      type: Schema.Types.ObjectId,
+      ref: 'User',
+      required: true
+    },
+    cryptocurrencies: [{
+      type: Schema.Types.ObjectId,
+      ref: 'Crypto'
+    }]
+}, {
+    timestamps: true
+  });
+  
 let Watchlist = mongoose.model('Watchlist', watchlistSchema);
 
 module.exports = Watchlist;

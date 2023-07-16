@@ -42,8 +42,4 @@ router.get('/auth/google', passport.authenticate(
   });
 
 
-
-
-
-
 module.exports = router;

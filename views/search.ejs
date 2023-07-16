@@ -12,16 +12,18 @@
     <button type="submit">Go!</button>
 </form>
 
-<!-- show error if any -->
+
 <% if (error) { %>
     <p><%= error %></p>
 <% } %>
 
-<!-- show coin info -->
+
 <% if (coin) { %>
     <h2><%= coin.name %></h2>
     <p>Current price: <%= coin.current_price %></p>
-       <form action="/watchlist" method="POST">
+    <img src="<%= coin.image %>" alt="">
+
+       <form action="/search" method="POST">
         <input type="hidden" name="coinId" value="<%= coin.id %>">
         <button type="submit">Add to watchlist</button>
         </form>

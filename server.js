@@ -4,8 +4,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var session = require('express-session');
-var methodOverride = require('method-override');
 var passport = require('passport');
+var methodOverride = require('method-override');
 
 
 
