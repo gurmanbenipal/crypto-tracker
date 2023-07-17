@@ -9,7 +9,7 @@
 
 <div class="form-container">
 <form action="/search" method="GET">
-    <input type="text" name="coinId" placeholder="Enter a Coin Id">
+    <input type="text" name="coinId" placeholder="Enter a Coin Name">
    <div class= button>
     <button type="submit">Go!</button>
 <div>
@@ -22,10 +22,11 @@
 
 
 <% if (coin) { %>
+   <div class="coin-data">
     <h2><%= coin.name %></h2>
     <p>Current price: <%= coin.current_price %></p>
     <img src="<%= coin.image %>" alt="">
-
+</div>
        <form action="/search" method="POST">
         <input type="hidden" name="coinId" value="<%= coin.id %>">
         <button type="submit">Add to watchlist</button>

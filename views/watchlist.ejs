@@ -5,7 +5,7 @@
 
 <% if (coins && coins.length) { %>
   <% coins.forEach(coin => { %>
-    <div>
+    <div class = "watchlist">
       <h2><%= coin.name %></h2>
       <p>Current price: <%= coin.current_price %></p>
       <img src="<%= coin.image %>" alt="">  

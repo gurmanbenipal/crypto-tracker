@@ -35,6 +35,9 @@ a:hover {
   align-items: center;
   height: 34px;
 }
+img{
+  height: 100px;
+}
 
 .login img {
   height: 30px;
@@ -141,6 +144,24 @@ h1 {
   text-align: center;
   margin-top: 10vmin;
 
+}
+.watchlist{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-content: center; 
+    align-items: center; 
+    width: 10%; 
+    margin: 0 auto; 
+}
+.coin-data{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+
+    align-items: center; 
+
+    margin: 0 auto; 
 }
 
 body.dark-mode {
