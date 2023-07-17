@@ -1,17 +1,20 @@
 <%- include('./partials/header') %>
 
-<a href="/watchlist">Watchlist</a>
+<a href="/watchlist" class="watchlist-link">WATCHLIST</a>
+
 <h1>Search</h1>
 
-<p>Welcome <%= user.name %></p>
+<p class="name">Welcome <%= user.name %></p>
 
 
-
+<div class="form-container">
 <form action="/search" method="GET">
     <input type="text" name="coinId" placeholder="Enter a Coin Id">
+   <div class= button>
     <button type="submit">Go!</button>
+<div>
 </form>
-
+</div>
 
 <% if (error) { %>
     <p><%= error %></p>
