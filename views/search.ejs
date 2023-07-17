@@ -24,7 +24,7 @@
 <% if (coin) { %>
    <div class="coin-data">
     <h2><%= coin.name %></h2>
-    <p>Current price: <%= coin.current_price %></p>
+    <p>Current price: <%= coin.current_price %> USD</p>
     <img src="<%= coin.image %>" alt="">
 </div>
        <form action="/search" method="POST">

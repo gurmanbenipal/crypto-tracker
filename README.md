@@ -1,4 +1,4 @@
-# CRYPTO TRACKER
+# CRYPTO TRACKER 🤑
 
 Welcome to Crypto Tracker! This application allows you to keep track of your favorite cryptocurrencies in a user-friendly and efficient manner. Keep a tab on your top choices, use a dark mode for more comfort, and get started with the help of Google authentication. Stay up to date with the most recent prices with just a click :)
 ## Features
@@ -11,7 +11,7 @@ Welcome to Crypto Tracker! This application allows you to keep track of your fav
 - Preferences, like dark mode on/off, are saved per account.
 
 
-## Technologies Used
+## Technologies Used 👨🏻‍💻
 <img src="tech/html-5.png" alt="HTML5" width="50" height="45"> <img src="tech/css-3.png" alt="CSS" width="50" height="45"> <img src="tech/js.png" alt="JS" width="35" height="35"> <img src="tech/Visual_Studio_Code_1.35_icon.svg.png" alt="VS CODE" width="35" height="35"> <img src="tech/github-sign.png" alt="GIT HUB" width="35" height="35"> <img src="tech/node-js.png" alt="NODE JS" width="35" height="35"> <img src="tech/heroku.png" alt="HEROKU" width="35" height="35">
 
 
@@ -33,7 +33,7 @@ Welcome to Crypto Tracker! This application allows you to keep track of your fav
 6. Click the 'Delete' button right below the cryptocurrency in your watchlist to remove it.
 7. Use the toggle at the top-left corner to switch between light and dark mode according to your preference.
 
-## Screenshots
+## Screenshots 📸
 
 ## Landing Page
 <img src="screenshots/Screenshot 2023-07-17 at 1.47.04 PM.png" alt="landing page" width="500" height="400">
@@ -60,7 +60,7 @@ Welcome to Crypto Tracker! This application allows you to keep track of your fav
 
 
 
-## CODE PREVIEW! (SEARCHING FOR A COIN USING AN API)
+## CODE PREVIEW! 🔬 (SEARCHING FOR A COIN USING AN API) 
 ```javascript
  
  //this function is to show us the coin when we search for them 
@@ -103,8 +103,10 @@ async function index(req, res, next) {
 - Option to share your watchlist with others
 - Add a feature to buy or sell coins directly through the application
 
+## Trello Link
+[ Click here ](https://trello.com/b/FRqTtLss/crypto-market-tracker)
 
-## Data credits
+## Data credits 
 
 - [ Cryptocurrency data ](https://www.coingecko.com/en/api) : CoinGecko API provides a comprehensive set of data regarding various cryptocurrencies.
 
