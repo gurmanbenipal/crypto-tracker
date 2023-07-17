@@ -7,7 +7,6 @@ const userSchema = new Schema({
     type:String,
     required: true
   },
-  email: String,
   avatar: String,
   isDarkMode: { type: Boolean, default: false }
 }, {
