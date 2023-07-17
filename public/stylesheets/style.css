@@ -31,9 +31,10 @@ a:hover {
 
 .login {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 34px;
+  font-size: 2.5vmin;
+  
+
+  height: 40px;
 }
 img{
   height: 100px;
@@ -140,9 +141,10 @@ h1 {
 }
 
 .loginn{
-  font-size: 5vmin;
+  font-size: 3vmin;
   text-align: center;
-  margin-top: 10vmin;
+  margin-top: 20vmin;
+  
 
 }
 .watchlist{

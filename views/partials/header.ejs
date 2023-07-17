@@ -12,7 +12,7 @@
     <nav>
         <% if (user) { %>
         
-            <a href="/logout">LOG OUT</a>
+            <a href="/logout" class="login">LOG OUT</a>
             <form action="/users/<%= user.id %>?_method=PUT" method="POST">
               
 
