@@ -12,7 +12,7 @@ Welcome to Crypto Tracker! This application allows you to keep track of your fav
 
 
 ## Technologies Used 👨🏻‍💻
-<img src="tech/html-5.png" alt="HTML5" width="50" height="45"> <img src="tech/css-3.png" alt="CSS" width="50" height="45"> <img src="tech/js.png" alt="JS" width="35" height="35"> <img src="tech/Visual_Studio_Code_1.35_icon.svg.png" alt="VS CODE" width="35" height="35"> <img src="tech/github-sign.png" alt="GIT HUB" width="35" height="35"> <img src="tech/node-js.png" alt="NODE JS" width="35" height="35"> <img src="tech/heroku.png" alt="HEROKU" width="35" height="35">
+<img src="tech/html-5.png" alt="HTML5" width="50" height="45"> <img src="tech/css-3.png" alt="CSS" width="50" height="45"> <img src="tech/js.png" alt="JS" width="35" height="35"> <img src="tech/Visual_Studio_Code_1.35_icon.svg.png" alt="VS CODE" width="35" height="35"> <img src="tech/github-sign.png" alt="GIT HUB" width="35" height="35"> <img src="tech/node-js.png" alt="NODE JS" width="35" height="35"> <img src="tech/heroku.png" alt="HEROKU" width="35" height="35"> <img src="tech/pngwing.com.png" alt="MONGO" width="35" height="35"> <img src="tech/unnamed.png" alt="GOOGLE CLOUD" width="35" height="35">
 
 
 
