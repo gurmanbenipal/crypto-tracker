@@ -74,7 +74,7 @@ async function create(req, res) {
     const cryptoIdsInWatchlist = watchlist.cryptocurrencies.map(crypto => crypto._id.toString());
 //this is in case the coin alreayd exists in the users watchlist
     if (cryptoIdsInWatchlist.includes(existingCrypto._id.toString())) {
-      return res.status(400).send('Coin already exists in your watchlist');
+      return res.render('search', { coin: null, error: 'Coin already exists in your watchlist' });
     }
 // if it doesnt exist push it
     watchlist.cryptocurrencies.push(existingCrypto._id);
