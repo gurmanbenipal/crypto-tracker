@@ -22,6 +22,7 @@ Welcome to Crypto Tracker! This application allows you to keep track of your fav
 2. Sign in using Google authentication.
 3. Search for a cryptocurrency.
 4. Add it to your personal watchlist.
+5. [ Trello Link ](https://trello.com/b/FRqTtLss/crypto-market-tracker)
 
 ## Application Instructions
 
@@ -103,8 +104,7 @@ async function index(req, res, next) {
 - Option to share your watchlist with others
 - Add a feature to buy or sell coins directly through the application
 
-## Trello Link
-[ Click here ](https://trello.com/b/FRqTtLss/crypto-market-tracker)
+
 
 ## Data credits 
 
