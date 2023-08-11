@@ -18,7 +18,7 @@ Welcome to Crypto Tracker! This application allows you to keep track of your fav
 
 ## Getting Started
 
-1. [CLICK HERE TO START TRACKING!](https://crypto-market-tracker-7ca001d4954d.herokuapp.com/) 
+1. [CLICK HERE TO START TRACKING!](https://crypto-market-tracker-7ca001d4954d.herokuapp.com/) (as of now the site is flagged by google so please use google chrome to bypass the alert /:)
 2. Sign in using Google authentication.
 3. Search for a cryptocurrency.
 4. Add it to your personal watchlist.
